@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  learning-postgresql-database:
+    image: library/postgres:13.4-alpine
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./database-dumps/northwind.tar:/northwind.tar
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
