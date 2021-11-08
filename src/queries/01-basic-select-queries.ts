@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Business requirement: Create a report about employees and include all fields.
 void query("SELECT * FROM employees;")

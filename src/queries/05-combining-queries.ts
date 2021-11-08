@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 void query(`SELECT companyname FROM customers UNION SELECT companyname FROM suppliers;`)
 

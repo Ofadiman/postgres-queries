@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Business requirement: Find out the number of units ordered and amount of sales for all products from the top three categories by total sales.
 void query(`

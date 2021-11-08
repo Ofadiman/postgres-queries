@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * PostgreSQL has array data type. You can declare array size but iit will be ignored (it's only used for documentation purposes).

@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Description: If/else statement using SQL query.
 void query(`

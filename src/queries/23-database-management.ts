@@ -1,4 +1,4 @@
-import { query } from '../query'
+import { query } from '../utils/query'
 
 // Description: Create a new database in the current PostgreSQL server.
 void query(`CREATE DATABASE custom_name;`)

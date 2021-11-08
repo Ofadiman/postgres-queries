@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * 1. You can specify the precision of seconds value (from 0 to 6 digits).

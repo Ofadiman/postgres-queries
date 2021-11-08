@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * Window functions are similar to aggregate functions but they do not reduce number of rows returned by the query.

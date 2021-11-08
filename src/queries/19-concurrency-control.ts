@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * Transaction may run in different isolation levels which will create the following phenomenas:

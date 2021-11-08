@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * 1. `UNIQUE` constraint enforces a value inserted to a column to be unique.

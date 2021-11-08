@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Business requirement: Create a pagination on a table.
 void query("SELECT * FROM orders ORDER BY orderdate DESC, shipcity ASC LIMIT 10 OFFSET 10;")

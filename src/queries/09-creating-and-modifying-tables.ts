@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Description: Create a table called `subscribers`.
 void query(`

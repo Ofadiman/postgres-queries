@@ -1,4 +1,4 @@
-import { query } from '../query'
+import { query } from '../utils/query'
 
 /**
  * PostgreSQL has 2 types for declaring JSON values: `json` and `jsonb`. The vast majority of time you want to use `jsonb` type because it allows to execute all kinds of operators provided by PostgreSQL.

@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * 1. When you execute the same query multiple times the consequent executions should be faster because all the data is in RAM (unless it got flushed because other data was more important and the database decided to swap it).

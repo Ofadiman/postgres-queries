@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 /**
  * By definition, a sequence is an ordered list of integers. The orders of numbers in the sequence are important.

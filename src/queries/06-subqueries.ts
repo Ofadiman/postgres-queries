@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Business requirement: Get all details about customers who placed an order in a specified period of time.
 void query(`

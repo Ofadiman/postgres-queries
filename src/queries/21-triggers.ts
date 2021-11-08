@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Description: Create a trigger that will insert a value into `last_updated` column after create or update.
 void query(`

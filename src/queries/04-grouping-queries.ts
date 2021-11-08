@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Business requirement: Check how many customers a company has in each country.
 // Description: The `COUNT(*), country` part is a syntax specific to aggregation queries.

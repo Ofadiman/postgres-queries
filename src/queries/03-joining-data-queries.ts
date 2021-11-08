@@ -1,4 +1,4 @@
-import { query } from "../query"
+import { query } from "../utils/query"
 
 // Business requirement: Getting all data from 2 columns.
 void query("SELECT * FROM products LEFT JOIN suppliers on products.supplierid = suppliers.supplierid;")

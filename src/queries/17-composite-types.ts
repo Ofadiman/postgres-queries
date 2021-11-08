@@ -1,4 +1,4 @@
-import { query } from '../query'
+import { query } from '../utils/query'
 
 /**
  * Besides built-in data types, PostgreSQL allows you to create user-defined data types through the following statements:
